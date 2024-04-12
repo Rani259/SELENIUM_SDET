@@ -26,7 +26,7 @@ public class UploadFileExample {
        WebElement fileUploadSuccessMassage = driver.findElement( By.xpath( "//h3[text()='File Uploaded!']" ) );
 
        if (fileUploadSuccessMassage.getText().equalsIgnoreCase( "File Uploaded!" )){
-           System.out.println("File Successfully Added");
+           System.out.println("File Added Successfully");
        }else {
            System.out.println("File Isn't Successfully Uploaded");
            driver.close();
